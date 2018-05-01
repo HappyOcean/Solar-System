@@ -14,6 +14,9 @@
 		3CE3B3602084C81000BBCC46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CE3B35E2084C81000BBCC46 /* LaunchScreen.storyboard */; };
 		3CE3B36B2084C81000BBCC46 /* Solar_SystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE3B36A2084C81000BBCC46 /* Solar_SystemTests.swift */; };
 		3CE3B3762084C81000BBCC46 /* Solar_SystemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE3B3752084C81000BBCC46 /* Solar_SystemUITests.swift */; };
+		61CC246B20D4F19A3538CAF5 /* Pods_Solar_SystemUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D54187EAA27E8B9831412D9 /* Pods_Solar_SystemUITests.framework */; };
+		6BCC3ED8D5BBAE21F0CC6221 /* Pods_Solar_System.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B0B0E8005D27DA2AF89AC8 /* Pods_Solar_System.framework */; };
+		843C15B0A1F179F14441D783 /* Pods_Solar_SystemTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43D373E2F02AFB2DA9F4723E /* Pods_Solar_SystemTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,15 @@
 		3CE3B3712084C81000BBCC46 /* Solar SystemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Solar SystemUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CE3B3752084C81000BBCC46 /* Solar_SystemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solar_SystemUITests.swift; sourceTree = "<group>"; };
 		3CE3B3772084C81000BBCC46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E8B6FC382334AA36F4C9CFA /* Pods-Solar SystemTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Solar SystemTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Solar SystemTests/Pods-Solar SystemTests.debug.xcconfig"; sourceTree = "<group>"; };
+		43D373E2F02AFB2DA9F4723E /* Pods_Solar_SystemTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Solar_SystemTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D54187EAA27E8B9831412D9 /* Pods_Solar_SystemUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Solar_SystemUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F1306FFB1FE6091E76AA572 /* Pods-Solar SystemUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Solar SystemUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Solar SystemUITests/Pods-Solar SystemUITests.release.xcconfig"; sourceTree = "<group>"; };
+		73F9CC2A38EEB458990AA530 /* Pods-Solar SystemUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Solar SystemUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Solar SystemUITests/Pods-Solar SystemUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		85774EFD61436DBCEFE93EA1 /* Pods-Solar SystemTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Solar SystemTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Solar SystemTests/Pods-Solar SystemTests.release.xcconfig"; sourceTree = "<group>"; };
+		93B0B0E8005D27DA2AF89AC8 /* Pods_Solar_System.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Solar_System.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2BC48FA04D2437F7FA994F2 /* Pods-Solar System.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Solar System.release.xcconfig"; path = "Pods/Target Support Files/Pods-Solar System/Pods-Solar System.release.xcconfig"; sourceTree = "<group>"; };
+		EC304B98D597DED7BEBD168A /* Pods-Solar System.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Solar System.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Solar System/Pods-Solar System.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BCC3ED8D5BBAE21F0CC6221 /* Pods_Solar_System.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				843C15B0A1F179F14441D783 /* Pods_Solar_SystemTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61CC246B20D4F19A3538CAF5 /* Pods_Solar_SystemUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0578D526872AD3CF1998BC2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93B0B0E8005D27DA2AF89AC8 /* Pods_Solar_System.framework */,
+				43D373E2F02AFB2DA9F4723E /* Pods_Solar_SystemTests.framework */,
+				5D54187EAA27E8B9831412D9 /* Pods_Solar_SystemUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3CE3B3492084C80F00BBCC46 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +106,8 @@
 				3CE3B3692084C81000BBCC46 /* Solar SystemTests */,
 				3CE3B3742084C81000BBCC46 /* Solar SystemUITests */,
 				3CE3B3532084C80F00BBCC46 /* Products */,
+				4C739D377DD5B4EACC9C3DB4 /* Pods */,
+				0578D526872AD3CF1998BC2C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +152,19 @@
 			path = "Solar SystemUITests";
 			sourceTree = "<group>";
 		};
+		4C739D377DD5B4EACC9C3DB4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC304B98D597DED7BEBD168A /* Pods-Solar System.debug.xcconfig */,
+				A2BC48FA04D2437F7FA994F2 /* Pods-Solar System.release.xcconfig */,
+				3E8B6FC382334AA36F4C9CFA /* Pods-Solar SystemTests.debug.xcconfig */,
+				85774EFD61436DBCEFE93EA1 /* Pods-Solar SystemTests.release.xcconfig */,
+				73F9CC2A38EEB458990AA530 /* Pods-Solar SystemUITests.debug.xcconfig */,
+				6F1306FFB1FE6091E76AA572 /* Pods-Solar SystemUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3CE3B37A2084C81000BBCC46 /* Build configuration list for PBXNativeTarget "Solar System" */;
 			buildPhases = (
+				6F7DD3DE0F40A8578A4E1905 /* [CP] Check Pods Manifest.lock */,
 				3CE3B34E2084C80F00BBCC46 /* Sources */,
 				3CE3B34F2084C80F00BBCC46 /* Frameworks */,
 				3CE3B3502084C80F00BBCC46 /* Resources */,
+				4FA45BC5E2B1AE0EF31ABA1A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3CE3B37D2084C81000BBCC46 /* Build configuration list for PBXNativeTarget "Solar SystemTests" */;
 			buildPhases = (
+				6A4E5DD635026C3A2F80C056 /* [CP] Check Pods Manifest.lock */,
 				3CE3B3622084C81000BBCC46 /* Sources */,
 				3CE3B3632084C81000BBCC46 /* Frameworks */,
 				3CE3B3642084C81000BBCC46 /* Resources */,
@@ -167,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3CE3B3802084C81000BBCC46 /* Build configuration list for PBXNativeTarget "Solar SystemUITests" */;
 			buildPhases = (
+				DC64E440C54EC32087DE355D /* [CP] Check Pods Manifest.lock */,
 				3CE3B36D2084C81000BBCC46 /* Sources */,
 				3CE3B36E2084C81000BBCC46 /* Frameworks */,
 				3CE3B36F2084C81000BBCC46 /* Resources */,
@@ -250,6 +294,85 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4FA45BC5E2B1AE0EF31ABA1A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Solar System/Pods-Solar System-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Solar System/Pods-Solar System-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A4E5DD635026C3A2F80C056 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Solar SystemTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F7DD3DE0F40A8578A4E1905 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Solar System-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC64E440C54EC32087DE355D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Solar SystemUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3CE3B34E2084C80F00BBCC46 /* Sources */ = {
@@ -428,15 +551,14 @@
 		};
 		3CE3B37B2084C81000BBCC46 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC304B98D597DED7BEBD168A /* Pods-Solar System.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QLHNZ77S2B;
 				INFOPLIST_FILE = "Solar System/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Acutuator.Solar-System";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -446,15 +568,14 @@
 		};
 		3CE3B37C2084C81000BBCC46 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2BC48FA04D2437F7FA994F2 /* Pods-Solar System.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QLHNZ77S2B;
 				INFOPLIST_FILE = "Solar System/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Acutuator.Solar-System";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -464,17 +585,14 @@
 		};
 		3CE3B37E2084C81000BBCC46 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E8B6FC382334AA36F4C9CFA /* Pods-Solar SystemTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QLHNZ77S2B;
 				INFOPLIST_FILE = "Solar SystemTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Acutuator.Solar-SystemTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -485,17 +603,14 @@
 		};
 		3CE3B37F2084C81000BBCC46 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85774EFD61436DBCEFE93EA1 /* Pods-Solar SystemTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QLHNZ77S2B;
 				INFOPLIST_FILE = "Solar SystemTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Acutuator.Solar-SystemTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -506,16 +621,13 @@
 		};
 		3CE3B3812084C81000BBCC46 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73F9CC2A38EEB458990AA530 /* Pods-Solar SystemUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QLHNZ77S2B;
 				INFOPLIST_FILE = "Solar SystemUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Acutuator.Solar-SystemUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -526,16 +638,13 @@
 		};
 		3CE3B3822084C81000BBCC46 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F1306FFB1FE6091E76AA572 /* Pods-Solar SystemUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QLHNZ77S2B;
 				INFOPLIST_FILE = "Solar SystemUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Acutuator.Solar-SystemUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
